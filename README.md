@@ -2,6 +2,12 @@
 
 Identify which AI or Statistics model is suitable for the data you have and the outcome you want to reach.
 
+---
+
+Enter this through a web-based VS Code through github codespace.
+
+--
+
 Claude Prompts:
 I now want you to create a decision tree web app in javascript. Make it completely contained in one HTML page that includes the javascript in its &lt;script&gt; tags. This program takes the mermaid chart you've been working on and makes it ask the user the question in each diamond. They are given 4 options: "Yes", "No", "Go Back" and "Restart". At each leaf/terminal node (the rounded boxes), give the suggested model type (the text in the rounded boxes) with its example (in the notch boxes). Stylization is done in CSS &lt;style&gt; definitions within the same document. Each question should be prompted on the screen in a medium, bold font with answers/actions in buttons beneath. After an anwer/action is given, the question text is replaced with either the next question or the final text. The final text should show the model type in large, bold font with the example beneath in medium, normal style of the same font family.
 
